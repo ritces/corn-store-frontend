@@ -27,7 +27,7 @@ This project is the frontend user interface for the  corn purchasing application
 ## Project Structure
 
 ```
-Corn-Store-Frontend/
+corn-store-frontend/
 ├── public/
 │   └── ... # Static assets
 ├── src/
@@ -83,7 +83,7 @@ The recommended way to run this project for development is using Docker Compose.
 
 2.  **Environment Variables:** Check if a `.env` file is needed for Vite environment variables (e.g., `VITE_API_BASE_URL`). If so, create one based on `.env.example` or required configuration. (Note: Currently, API URL might be hardcoded or passed differently).
 
-3.  **Build and Run Container:** Open a terminal in the project's root directory (`Corn-Store-Frontend/`) and run:
+3.  **Build and Run Container:** Open a terminal in the project's root directory (`corn-store-frontend/`) and run:
 
     ```bash
     docker compose up --build -d
